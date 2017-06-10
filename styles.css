@@ -1,3 +1,6 @@
+/*********************************************
+  Base Styles
+*********************************************/
 body {
   margin: 0;
   padding: 0;
@@ -26,9 +29,13 @@ a {
   color: #39add1;
   font-weight: 700;
   }
-  a:hover {
+  a:hover,
+  path:hover {
     color: #111;
+    fill: #111;
   }
+
+/* Header*/
 
 header {
   padding-top: 10px;
@@ -50,6 +57,8 @@ header {
     line-height: 1em;
   }
 
+ /* Logo */
+
 .logo {
   height: 140px;
   width: 120px;
@@ -59,6 +68,8 @@ header {
   display: none;
   color: #EAAA7F;
 }
+
+/* Main content */
 
 main {
   padding-top: 50px;
@@ -86,12 +97,18 @@ main {
         margin-right: 0;
       }
 
+/* Footer */
+
 footer {
   width: 100%;
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
 }
+
+/*********************************************
+  Media Queries
+*********************************************/
 
 @media (max-width: 425px) {
   .svg-text {
