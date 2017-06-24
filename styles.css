@@ -74,7 +74,12 @@ header {
   color: #EAAA7F;
 }
 
-/* Main content */
+/* Content */
+
+h1,
+h2 {
+  color: #52595F;
+}
 
 main {
   padding-top: 50px;
@@ -109,13 +114,17 @@ main {
   color: #39ADD1;
 }
 
+.logo .st0{
+  fill:#BA8058;
+  }
 
-/*
-.nav-item-color:hover{
-  fill: tomato;
-  color: tomato;
-}
-*/
+.logo .st1{
+  fill:#EAAA7F;
+  }
+
+.logo .st2{
+  fill:#F4C6A6;
+  }
 
 /* Footer */
 
