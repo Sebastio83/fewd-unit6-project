@@ -26,13 +26,18 @@ p {
 
 a {
   text-decoration: none;
-  color: #39add1;
+  color: #EAAA7F;
   font-weight: 700;
   }
-  a:hover,
-  path:hover {
-    color: #111;
-    fill: #111;
+
+a path {
+  fill: #BA8058;  
+}
+
+a:hover,
+path:hover {
+  color: #52595F;
+  fill: #52595F;
   }
 
 /* Header*/
@@ -96,6 +101,21 @@ main {
       main li:last-child {
         margin-right: 0;
       }
+
+/* SVG Styles */
+
+.nav-item-color {
+  fill: #39ADD1;
+  color: #39ADD1;
+}
+
+
+/*
+.nav-item-color:hover{
+  fill: tomato;
+  color: tomato;
+}
+*/
 
 /* Footer */
 
