@@ -13,7 +13,6 @@ body {
 
 #container {
   max-width: 960px;
-  background: #fff;
   margin: 0 auto;
 }
 
@@ -38,6 +37,7 @@ a:hover,
 path:hover {
   color: #52595F;
   fill: #52595F;
+  transition: fill 0.5s ease;
   }
 
 /* Header*/
