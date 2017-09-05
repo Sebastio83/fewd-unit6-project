@@ -7,20 +7,15 @@ body {
   text-align: center;
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
+  font-size: 16px;
   color: #111;
   background: url('svgs/background.svg') #edeff0;
 }
 
 #container {
   max-width: 960px;
+  background: #fff;
   margin: 0 auto;
-}
-
-p {
-  max-width: 350px;
-  margin: 35px auto 0;
-  line-height: 2em;
-  text-align: left;
 }
 
 a {
@@ -29,40 +24,44 @@ a {
   font-weight: 700;
   }
 
-a path {
-  fill: #BA8058;  
-}
-
-a:hover,
-path:hover {
-  color: #52595F;
-  fill: #52595F;
-  transition: fill 0.5s ease;
-  }
-
 /* Header*/
 
 header {
   padding-top: 10px;
 }
-  header nav {
+
+/* Navigation */
+
+nav {
     padding-bottom: 50px;
     text-align: left;
   }
-  header nav ul li {
+
+nav li {
     display: inline-block;
     margin-right: 20px;
   }
 
-  header nav ul li a img {
-    height: 13px;
-  }
 
-  header h1 {
-    line-height: 1em;
-  }
+nav li a{
+  transition: color 0.5s ease;
+}
 
- /* Logo */
+nav li path {
+  fill: #BA8058;
+   transition: fill 0.5s ease;
+}
+
+nav li:hover a {
+  color: #52595F;
+  text-decoration: underline;
+}
+
+nav li:hover path {
+  fill: #52595F;
+}
+
+/* Logo */
 
 .logo {
   height: 140px;
@@ -81,13 +80,20 @@ h2 {
   color: #52595F;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
 /* Main content */
+
 main {
   padding-top: 50px;
 }
-  main h2 {
-  font-size: 28px;
-}
+
   main ul {
     padding: 0;
   }
@@ -108,6 +114,16 @@ main {
         margin-right: 0;
       }
 
+/* Typographie */
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+
 /* Dog svg size */
 
 .corgi {
@@ -115,16 +131,7 @@ main {
   height: 170px;
 }
 
-.red .st0 {
-  fill: tomato;
-}
-
 /* SVG Colors */
-
-.nav-item-color {
-  fill: #39ADD1;
-  color: #39ADD1;
-}
 
 .logo .st0{
   fill:#BA8058;
